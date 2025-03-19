@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "@chakra-ui/react";
 
-import Login from "../components/Login";
-import HomePage from "../components/HomePage";
-import CourseForm from "../components/CourseForm";
-import AdminPanel from "../components/AdminPanel";
-import CourseDetails from "../components/CourseDetails";
-import ProtectedRoute from "../components/ProtectedRoute";
+import Login from "../src/components/Login";
+import HomePage from "../src/components/HomePage";
+import CourseForm from "../src/components/CourseForm";
+import AdminPanel from "../src/components/AdminPanel";
+import CourseDetails from "../src/components/CourseDetails";
+import ProtectedRoute from "../src/components/ProtectedRoute";
 
 function App() {
   return (

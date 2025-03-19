@@ -7,7 +7,7 @@ import { useFilterStore } from "../store/useFilterStore";
 import { useFavoriteStore } from "../store/useFavoriteStore";
 import { usePaginationStore } from "../store/usePaginationStore";
 
-import { cardData } from "../src/data";
+import { cardData } from "../data";
 
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import SearchField from "../components/SearchField";
